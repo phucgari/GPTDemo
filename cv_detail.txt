@@ -1,0 +1,118 @@
+Doan Van Phuc
+Java Developer
+03-03-1999
+Male
+0916195288
+phucgari@gmail.com
+https://github.com/phucgari
+Thanh Xuan, Ha Noi
+
+Programing Skill:
+Java Core
+Excellent deep knowledge of OOP. Can use
+Lamda/Stream Java and many high levels
+Java language technology.
+JSP/servlet
+Basic understanding of Jsp. Can build
+websites using JSP/java servlet
+Spring
+Good use of JavaSpring. Can use
+SpringMVC/Thymeleaf to fully build a new
+website or RestAPI server using Spring
+Mysql
+Good understanding of Mysql and relational
+databases.
+
+
+References
+Lê Thị Châu
+Role: Academic Head (AH)
+Company: CodeGym Vietnam Joint Stock
+Company
+Email: chau.le@codegym.vn
+Phone number: (84)966807709
+
+Self-introduction:
+• Hard-working, logical person and have good problemsolving skills, overall a highly competent candidate.
+• Introduction videos:
+◦ English version: https://youtu.be/i3EfB1b0uHM
+◦ Vietnamese version: https://youtu.be/e__JvKggTBc
+
+Certification:
+06/2018 IELTS 6.5
+06/2023
+OCP 11: Oracle Certified Professional: Java SE 11
+Developer
+
+Education:
+National Economic University 09-2018 - 06-2022
+Marketing Management
+Codegym 11/2022 - 06/2023
+Java Fullstack Developer Bootcamp
+03/2023: CodeGym Khoe: "Unique Idea"
+04/2023: CodeGym Hackathon: "Potential"
+
+Projects
+Quizzling -
+Team leader: 4 persons
+Overview: A small quiz app where users can create a new
+exam and add new questions to the created exam. Have
+some extra features like searching questions and
+generating random exams, or leaderboard. The product is
+finished, usable and contains nearly no bug
+Technology:
+• Spring boot
+• React JS
+• MySql
+• Spring Data JPA - Hibernate
+Responsibility:
+ReactJS
+Basic use of ReactJs to create the front-end
+part of Web Development.
+Git
+Good use of basic git to cooperate with
+others.
+
+• Team leader: manage teammates, and distribution work
+to finish the app in a short period of time while
+maintaining high motivation.
+• Database planning: with the team planned a suitable
+database for the product.
+• Security specialist: using Spring Security for
+authentication and authorization.
+• Front-end developer: Using React to generate Front-end
+received data from the back-end.
+• Back-end developer: Using Spring/Spring Data JPA to
+connect to the database and send information to FE
+git: https://github.com/phucgari/PuzzlingFE.git
+https://github.com/phucgari/PuzzlingBE.git
+Hospital management application -
+Personal project
+Overview: A small application used to manage the flow of
+objects through a multi-threaded environment. The objects
+consist of doctors and patients simulated as a hospital.
+Earned "Unique Idea" prize using this project
+Technology:
+• Java
+• JUnit unit test
+• Design Pattern: Object Pool, Singleton
+• Java Multi-threading
+git: https://github.com/phucgari/caseStudyModule2.git
+Go Event -
+Team leader: 4 persons
+Overview: A small event app where users can find nearby
+events to join on weekends. Companies can post new
+events to market to potential customers. Earned "Potential"
+prize using this project
+Technology:
+• JSP/Servlet
+• JDBC
+Responsibility:
+• Team leader: manage teammates, and distribution work
+to finish most of the app in a small niche time while
+maintaining high motivation.
+• Database planning: with the team planned a suitable
+database for the product.
+• Services/Repository coding: using basic JDBC to write
+complex SQLs and mapping with the suitable classes
+git: https://github.com/phucgari/goEventMarathon.git
