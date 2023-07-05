@@ -1,6 +1,7 @@
 import os
 import openai
 from dotenv import load_dotenv
+from countToken import truncate_messages
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -19,6 +20,7 @@ while True:
     messages.append({"role": "user", "content":
                     f"""Using the CV to reply to the requested message in delimiter. If there are not related information in the CV, reply: "Sorry this is not under my knowledge". use short and concise answer only.
                     requested message: "{message}" """})
+    truncate_messages(messages)
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         temperature=temperature,
