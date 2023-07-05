@@ -18,7 +18,7 @@ while True:
     if message == "quit()":
         break
     messages.append({"role": "user", "content":
-                    f"""Using the CV to reply to the requested message in delimiter. If there are not related information in the CV, reply: "Sorry this is not under my knowledge". use short and concise answer only.
+                    f"""Using the CV to reply to the requested message in delimiter. If there are not related information in the CV, reply: "Sorry this is not under my knowledge".
                     requested message: "{message}" """})
     truncate_messages(messages)
     response = openai.ChatCompletion.create(

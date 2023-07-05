@@ -14,7 +14,6 @@ def num_tokens_from_messages(messages)->int:
     sum=0
     for message in messages:
         sum+=num_tokens_from_string(message["content"],model_name)
-    print(sum)
     return sum
 
 def truncate_messages(messages):
