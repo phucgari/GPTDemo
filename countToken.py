@@ -85,7 +85,7 @@ def num_tokens_from_functions(functions, model="gpt-3.5-turbo-0613"):
         num_tokens += 12 
         return num_tokens
 
-def truncate_messages(messages, functions):
+def truncate_messages(messages, functions=[]):
     tokens_in_functions=num_tokens_from_functions(functions)
     while(num_tokens_from_messages(messages)+tokens_in_functions>=4000):
         messages.pop(1)
